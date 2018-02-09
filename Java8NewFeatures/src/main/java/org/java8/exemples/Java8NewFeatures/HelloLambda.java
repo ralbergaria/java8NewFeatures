@@ -28,6 +28,6 @@ public class HelloLambda {
 		//Other nice example
 		usuarios.forEach(u -> u.becameModerator());
 		
-
+		usuarios.sort((u1, u2) -> u1.getName().compareTo(u2.getName()));
 	}
 }
