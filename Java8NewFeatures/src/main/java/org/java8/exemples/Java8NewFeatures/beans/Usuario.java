@@ -9,9 +9,7 @@ public class Usuario {
 	private String name;
 	private int points;
 	private boolean moderator;
-	private int numero;
 	private boolean teste;
-	
 	public Usuario(String name, int points) {
 		this.points = points;
 		this.name = name;
