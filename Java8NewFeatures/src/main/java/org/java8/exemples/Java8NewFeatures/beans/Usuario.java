@@ -1,7 +1,7 @@
 package org.java8.exemples.Java8NewFeatures.beans;
 
 /**
- * testando novamente
+ * Test git hub
  * @author rafael.carmo
  *
  */
@@ -10,11 +10,13 @@ public class Usuario {
 	private int points;
 	private boolean moderator;
 	private int numero;
-
+	private boolean teste;
+	
 	public Usuario(String name, int points) {
 		this.points = points;
 		this.name = name;
 		this.moderator = false;
+		
 	}
 	
 	public String getName() {
@@ -35,5 +37,13 @@ public class Usuario {
 
 	public void becameModerator() {
 		this.moderator = true;
+	}
+
+	public boolean isTeste() {
+		return teste;
+	}
+
+	public void setTeste(boolean teste) {
+		this.teste = teste;
 	}
 }
